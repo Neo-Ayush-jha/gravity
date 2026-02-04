@@ -82,13 +82,13 @@ function PartnerForm() {
   };
 
   return (
-    <section className="bg-[#f5efe6] py-20 md:py-24">
-      <h2 className="text-[34px] md:text-[38px] font-semibold text-[#2b2b2b] text-center mb-4">
+    <section className="bg-[#f5efe6] py-12 md:py-20 lg:py-24">
+      <h2 className="text-[28px] sm:text-[32px] md:text-[38px] font-semibold text-[#2b2b2b] text-center mb-6 md:mb-8 px-4">
         Vendor Partnership Form
       </h2>
 
-      <div className="w-full grid md:grid-cols-2 gap-14 lg:gap-20 items-start">
-        <div className="w-full h-screen ">
+      <div className="w-full grid lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-start">
+        <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-screen ">
           <img
             src={InteriorImg}
             alt="Interior"
@@ -96,7 +96,7 @@ function PartnerForm() {
           />
         </div>
 
-        <form onSubmit={handleSubmit} className="text-[13px] text-[#6f6f6f] px-8 md:pr-14 md:pl-8 max-w-[640px] py-12">
+        <form onSubmit={handleSubmit} className="text-xs sm:text-[13px] text-[#6f6f6f] px-6 sm:px-8 md:pr-14 md:pl-8 max-w-[640px] py-6 md:py-12">
           <p className="text-[#2b2b2b] font-medium mb-5 text-lg">Your Details</p>
 
           <input

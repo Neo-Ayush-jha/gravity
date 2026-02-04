@@ -10,16 +10,16 @@ function Clients() {
   const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
 
   return (
-    <section className="bg-[#f5efe6] py-20 overflow-hidden">
+    <section className="bg-[#f5efe6] py-12 md:py-16 lg:py-20 overflow-hidden">
       <div className="relative w-full">
 
-        <div className="flex w-max animate-marquee gap-20">
+        <div className="flex w-max animate-marquee gap-8 sm:gap-12 md:gap-16 lg:gap-20">
           {[...logos, ...logos].map((logo, index) => (
             <img
               key={index}
               src={logo}
               alt="Client Logo"
-              className="h-12 w-auto opacity-80 hover:opacity-100 transition"
+              className="h-8 sm:h-10 md:h-12 w-auto opacity-80 hover:opacity-100 transition"
             />
           ))}
         </div>
