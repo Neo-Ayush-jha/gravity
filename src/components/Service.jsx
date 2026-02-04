@@ -123,7 +123,8 @@ function Service() {
                     </span>
                     <div className="mt-2">
                       <img
-                        src={`http://localhost:5000/uploads/${vendor.catalogue}`}
+                        src={
+                          `${import.meta.env.VITE_API_URL}${vendor.catalogue}`}
                         alt={`${vendor.companyName || "Vendor"} catalogue`}
                         className="w-full max-w-[260px] h-[250px] rounded-md border border-[#e6e0d8]"
                       />
