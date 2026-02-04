@@ -47,7 +47,7 @@ function PartnerForm() {
         data.append("catalogue", catalogue);
       }
 
-      const response = await fetch("http://localhost:5000/api/vendor", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/vendor`, {
         method: "POST",
         body: data,
       });
