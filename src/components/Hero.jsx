@@ -8,7 +8,7 @@ function Hero() {
         backgroundImage: `url(${HeroImg})`,
       }}
     >
-      <div className="absolute inset-0 "></div>
+      <div className="absolute bg-black/20 inset-0 "></div>
 
       <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
         <h1 className="text-white text-[32px] sm:text-[42px] md:text-[54px] lg:text-[64px] font-light tracking-wide">
