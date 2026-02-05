@@ -92,7 +92,7 @@ function PartnerForm() {
           <img
             src={InteriorImg}
             alt="Interior"
-            className="w-full h-full object-cover rounded-none"
+            className="w-full h-full object-cover object-bottom rounded-none"
           />
         </div>
 

@@ -49,7 +49,7 @@ function WhyUs() {
           <img
             src={InteriorImg}
             alt="Interior Design"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-bottom"
           />
         </div>
 
